@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="test.xslt"?>
+<CATALOG>
+   <CITYSCAPE>
+   <PAINTING>
+      	<CATEGORY>Cityscapes</CATEGORY>      
+      	<TITLE>Alley in Florence</TITLE>
+      	<DIMENSIONS>15 X 20 in.</DIMENSIONS>
+      	<PRICE>400 $</PRICE>
+      	<file type="gif">images/thumbnails/cityscapes/alley in florence.gif</file>
+	<large type="gif">images/fullsize/cityscapes/alley in florence.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Cityscapes</CATEGORY>      
+      	<TITLE>Christmas in New York</TITLE>
+      	<DIMENSIONS>12 X 14 in.</DIMENSIONS>
+      	<PRICE>250 $</PRICE>
+      	<file type="gif">images/thumbnails/cityscapes/christmas in new york.gif</file>
+	<large type="gif">images/fullsize/cityscapes/christmas in new york.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Cityscapes</CATEGORY>      
+      	<TITLE>New York, New York</TITLE>
+      	<DIMENSIONS>21 X 29 in.</DIMENSIONS>
+      	<PRICE>495 $</PRICE>
+      	<file type="gif">images/thumbnails/cityscapes/new york new york!.gif</file>
+	<large type="gif">images/fullsize/cityscapes/new york new york!.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Cityscapes</CATEGORY>      
+      	<TITLE>30th Street Station</TITLE>
+      	<DIMENSIONS>10 X 11 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/cityscapes/philly 1.gif</file>
+	<large type="gif">images/fullsize/cityscapes/philly 1.gif</large>
+   </PAINTING>
+   <PAINTING>
+	<CATEGORY>Cityscapes</CATEGORY>
+        <TITLE>Spanish Villa</TITLE>
+        <DIMENSIONS>18 X 24 in.</DIMENSIONS>
+        <PRICE>600 $</PRICE>
+        <file type = "gif">images/thumbnails/cityscapes/villa 1.gif</file>
+	<large type="gif">images/fullsize/cityscapes/villa 1.gif</large>
+   </PAINTING>
+   </CITYSCAPE>
+   <FLORA>
+   <PAINTING>
+	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Agave</TITLE>
+      	<DIMENSIONS>22 X 30 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/flora/agave.gif</file>
+	<large type="gif">images/fullsize/flora/agave.gif</large>
+   </PAINTING>
+   <PAINTING>
+	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Banana Flower</TITLE>
+      	<DIMENSIONS>14 X 20 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/flora/banana flower.gif</file>
+	<large type="gif">images/fullsize/flora/banana flower.gif</large>
+   </PAINTING>
+   <PAINTING>
+	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Blue Tropical</TITLE>
+      	<DIMENSIONS>20 X 14 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/flora/blue leaf.gif</file>
+	<large type="gif">images/fullsize/flora/blue leaf.gif</large>
+   </PAINTING>
+   <PAINTING>
+	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Hosta</TITLE>
+      	<DIMENSIONS>14 X 20 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/flora/hosta.gif</file>
+	<large type="gif">images/fullsize/flora/hosta.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Japanese Maple</TITLE>
+      	<DIMENSIONS>14 X 20 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/flora/japanese maple.gif</file>
+	<large type="gif">images/fullsize/flora/japanese maple.gif</large>
+   </PAINTING>
+   <PAINTING>
+        <CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Waterlillies</TITLE>
+      	<DIMENSIONS>12 X 16 in.</DIMENSIONS>
+      	<PRICE>275 $</PRICE>
+      	<file type="gif">images/thumbnails/flora/lillies.gif</file>
+	<large type="gif">images/fullsize/flora/lillies.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Tropical Palm 1</TITLE>
+      	<DIMENSIONS>20 X 20 in.</DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/flora/palm 1.gif</file>
+	<large type="gif">images/fullsize/flora/palm 1.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Tropical Palm 2</TITLE>
+      	<DIMENSIONS>15 X 30 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/flora/palm 2.gif</file>
+	<large type="gif">images/fullsize/flora/palm 2.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Tropical Palm 3</TITLE>
+      	<DIMENSIONS>22 X 30 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/flora/palm 3.gif</file>
+	<large type="gif">images/fullsize/flora/palm 3.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Plumeria</TITLE>
+      	<DIMENSIONS>14 X 20 in.</DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/flora/plumeria.gif</file>
+	<large type="gif">images/fullsize/flora/plumeria.gif</large>
+   </PAINTING>
+   <PAINTING>
+	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Tropical in Red</TITLE>
+      	<DIMENSIONS>14 X 20 in.</DIMENSIONS>
+      	<PRICE>SOLD</PRICE>
+      	<file type="gif">images/thumbnails/flora/red leaf.gif</file>
+	<large type="gif">images/fullsize/flora/red leaf.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Flora</CATEGORY>      
+      	<TITLE>Sunflower</TITLE>
+      	<DIMENSIONS>14 X 20 in.</DIMENSIONS>
+      	<PRICE></PRICE>
+	<file type="gif">images/thumbnails/flora/sunflower.gif</file>
+	<large type="gif">images/fullsize/flora/sunflower.gif</large>
+   </PAINTING>
+   </FLORA>
+   <STILL>
+   <PAINTING>
+      	<CATEGORY>Still Life</CATEGORY>      
+      	<TITLE>Capsicum and Tomato</TITLE>
+      	<DIMENSIONS>14 X 20 in.</DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/still life/capsicum and tomatos.gif</file>
+	<large type="gif">images/fullsize/still life/capsicum and tomatos.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Still Life</CATEGORY>      
+      	<TITLE>Limoncello</TITLE>
+      	<DIMENSIONS>11 X 14 in.</DIMENSIONS>
+      	<PRICE>275 $</PRICE>
+      	<file type="gif">images/thumbnails/still life/limoncello 1.gif</file>
+	<large type="gif">images/fullsize/still life/limoncello 1.gif</large>
+   </PAINTING>
+   </STILL>
+   <PEOPLE>
+   <PAINTING>
+      	<CATEGORY>People</CATEGORY>      
+      	<TITLE>Nandita</TITLE>
+      	<DIMENSIONS>9 X 12 in.</DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/people/nandita.gif</file>
+	<large type="gif">images/fullsize/people/nandita.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>People</CATEGORY>      
+      	<TITLE>Sriram</TITLE>
+      	<DIMENSIONS>14 X 20 in.</DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/people/sriram.gif</file>
+	<large type="gif">images/fullsize/people/sriram.gif</large>
+   </PAINTING>
+   </PEOPLE>
+   <VANAVANI>
+   <PAINTING>
+      	<CATEGORY>Vanavani</CATEGORY>      
+      	<TITLE>The Great Banyan Tree</TITLE>
+      	<DIMENSIONS></DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/vanavani/banyan.gif</file>
+	<large type="gif">images/fullsize/vanavani/banyan.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Vanavani</CATEGORY>      
+      	<TITLE>Gates of Vanavani</TITLE>
+      	<DIMENSIONS></DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/vanavani/gates of vanavani.gif</file>
+	<large type="gif">images/fullsize/vanavani/gates of vanavani.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Vanavani</CATEGORY>      
+      	<TITLE>Welcome to Vanavani</TITLE>
+      	<DIMENSIONS></DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/vanavani/welcome to vanavani.gif</file>
+	<large type="gif">images/fullsize/vanavani/welcome to vanavani.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Vanavani</CATEGORY>      
+      	<TITLE>Is Recess in Session??</TITLE>
+      	<DIMENSIONS></DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/vanavani/recess in session.gif</file>
+	<large type="gif">images/fullsize/vanavani/recess in session.gif</large>
+   </PAINTING>
+   <PAINTING>
+      	<CATEGORY>Vanavani</CATEGORY>      
+      	<TITLE>I Can Hear Mrs. Peters</TITLE>
+      	<DIMENSIONS></DIMENSIONS>
+      	<PRICE></PRICE>
+      	<file type="gif">images/thumbnails/vanavani/peters.gif</file>
+	<large type="gif">images/fullsize/vanavani/peters.gif</large>
+   </PAINTING>
+   </VANAVANI>
+</CATALOG>

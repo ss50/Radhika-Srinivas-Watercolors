@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Radhika Srinivas | Gallery</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/gif" href="paint_brush.gif">
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script>
+    $(document).ready(function(){
+       $("#gallery").hide().fadeIn("slow"); 
+    });
+</script>
+</head>
+
+<body onload="displayResult()">
+    <script>
+function loadXMLDoc(dname)
+{
+if (window.XMLHttpRequest)
+  {
+    xhttp=new XMLHttpRequest();
+  }
+else
+  {
+    xhttp = new ActiveXObject("Microsoft.XMLTHTTP");
+  }
+xhttp.open("GET",dname,false);
+xhttp.send("");
+return xhttp.responseXML;
+}
+
+function displayResult()
+{
+xml=loadXMLDoc("catalog.xml");
+xsl=loadXMLDoc("gallery.xslt");
+// code for IE
+if (window.ActiveXObject)
+  {
+  ex=xml.transformNode(xsl);
+  document.getElementById("gallery").innerHTML=ex;
+  }
+// code for Mozilla, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor=new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml,document);
+  document.getElementById("gallery").appendChild(resultDocument);
+  }
+}
+</script>
+
+
+<div class = "background">
+    <div class="main">
+        <h1>radhika srinivas</h1>
+        <h2>watercolors</h2>
+        <br>
+        <HR style="color:white;align:right;width:100%">
+        <table id="menu">
+            <tr>
+                <td width=25%><a href= "index.html" >home</a></td>
+                <td width=25%><a href = "bio.html">bio</a></td>
+                <td width=25%><a href = "gallery.html">gallery</a></td>
+                <td width=25%><a href = "contact.php">contact</a></td>
+            </tr>
+        </table>
+        <br>
+        <p style="font-size: 14px; text-align: center">*Click on an image to view full size*</p>
+        <div id="gallery" />
+        <script type = "text/javascript">
+            $(document).ready(function() {
+                 $(".fancybox").fancybox({
+                    transitionIn: 'elastic',
+                    transitionOut: 'elastic',
+                    speedIn: 700,
+                    speedOut:700,
+                    prevEffect: 'fade',
+                    nextEffect: 'fade',
+                    padding: '0'
+                });
+            });
+        </script>
+        <br>
+        
+    </div>
+    
+    
+</div>
+</body>
+</html>
